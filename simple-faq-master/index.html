@@ -19,6 +19,25 @@
 
     <!--You are welcome to delete these styles or modify them in your own stylesheet -->
     <style>
+      
+      /* Для мелких экранов до 480px */
+      @media screen and (max-width: 480px) {
+       /* Сюда пишешь стили для телефона, типа шрифты поменьше, блоки в один столбик и т.д. */
+      }
+
+
+      /* Для средних экранов до 768px */
+      @media screen and (max-width: 768px) {
+       /* Сюда стили для планшета. Может, два столбика, какие-то отступы другие. */
+      }
+
+      /* Для больших экранов (от 1025px и выше) */
+      @media screen and (min-width: 1025px) {
+        /* Сюда уже основные, "жирные" стили для больших мониторов. */
+      } 
+
+      
+
       * {
         margin: 0;
         padding: 0;
@@ -87,6 +106,15 @@
         gap: 10px;
         padding-left: 25px;
       }
+
+      .author-info {
+        position: fixed;
+        width: 300px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-bottom: 50px;
+      }
       
     </style>
   </head>
@@ -129,7 +157,7 @@
 
 
     <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
+      Coded by <a href="#">Aiperi Zhenishova</a> | Challenge by
       <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
         >devChallenges.io</a
       >.

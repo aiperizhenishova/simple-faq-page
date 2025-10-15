@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name} | devChallenges</h1>
+<h1 align="center">{Simple Frequently Asked Questions Page} | devChallenges</h1>
 
 <div align="center">
    Solution for a challenge <a href="https://devchallenges.io/challenge/simple-faq-challenge" target="_blank">Simple FAQ</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
+    <a href="{https://github.com/aiperizhenishova/simple-faq-master.git}">
       Solution
     </a>
     <span> | </span>
